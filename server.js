@@ -5,7 +5,7 @@ const exphbs = require('express-handlebars');
 
 const routes = require('./routes/handlers');
 
-const PORT = process.env.PORT || 9001;
+const PORT = process.env.PORT || 3000;
 const app = express();
 
 app.use(express.static(process.cwd() + '/public'));
